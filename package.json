@@ -1,5 +1,6 @@
 {
   "name": "ng4-test-project",
+  "description": "Test application allows you to get Twitter posts by tag",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
