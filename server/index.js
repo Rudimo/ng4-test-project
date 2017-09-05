@@ -14,7 +14,7 @@ const twitterClient = new Twitter({
   access_token_secret: ''
 });
 
-app.use('/get-posts', function (req, res) {
+app.use('/', function (req, res) {
 
   twitterClient.get('search/tweets', {q: req.query.tagName, count: 50}, function(error, tweets, response) {
     if (error) return console.log(error);
